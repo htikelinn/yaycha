@@ -1,0 +1,51 @@
+
+{
+  "folders": [
+    {
+        "name" : "Yaycha (React)",
+      "path": "frontend"
+    },
+    {
+    "name" : "Yaycha (Express)",
+      "path": "backend"
+    }
+  ],
+  "settings": {
+    // ====== Formatting ======
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    // ====== JavaScript/TypeScript ======
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    // ====== Prisma ======
+    "[prisma]": {
+      "editor.defaultFormatter": "Prisma.prisma"
+    },
+
+    // ====== Environment (.env) ======
+    "files.associations": {
+      ".env*": "dotenv"
+    },
+
+    // ====== General ======
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on"
+  },
+  "extensions": {
+    "recommendations": [
+      "Prisma.prisma",
+      "esbenp.prettier-vscode",
+      "mikestead.dotenv",
+      "dbaeumer.vscode-eslint",
+      "formulahendry.code-runner",
+      "humao.rest-client",
+      "mtxr.sqltools",
+      "pkief.material-icon-theme"
+    ]
+  }
+}
