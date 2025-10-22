@@ -1,4 +1,0 @@
-
-[submodule "libs/my-shared-lib"]
-    path = /frontend
-    url = git@github.com:htikelinn/yaycha1.git
